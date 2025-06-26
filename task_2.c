@@ -1,3 +1,5 @@
+// TASK - 2.
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -92,11 +94,13 @@ void freeList(struct Node** head) {
 
 int main() {
     struct Node* head = NULL;
-
+    
+    printf("Linked list is empty.\n");
     insertEnd(&head, 10);
     insertEnd(&head, 20);
     insertEnd(&head, 30);
     traverseList(head);
+    printf("Linked list is created.\n");
 
     deleteNode(&head, 20);
     traverseList(head);
