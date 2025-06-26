@@ -17,3 +17,5 @@ DESCRIPTION: The program for implementing a singly linked list with operations s
 
 OUTPUT:
 
+<img width="1382" alt="Image" src="https://github.com/user-attachments/assets/f8a89175-9320-43a7-a47e-b8a3b9127ca5" />
+
